@@ -1,0 +1,58 @@
+### learning list fucntions
+## changing elements
+## len(list)
+## list.append()
+##list.remove()
+
+
+
+
+
+
+backpack = ["Water Bottle" , "Homework" , "Toys"]
+print("Original output:",backpack)
+
+
+## change 1 ##
+backpack[1] = "Homework & School Books"  
+backpack[0] = "i like turtles"         
+print("Change #1:",backpack)
+
+
+## List length ##
+## our list now looks like ["i like turtles" , "Homework & School Books" , "Toys"]
+count = len(backpack) ## ther length of the backpack is the highest integer as the last elemnt number = 3
+print("There are",count,"items in the backpack")
+
+## remove "Homework & School Books" ##
+
+backpack.remove("Homework & School Books")
+
+print(backpack) ##["i like turtles" ,"Toys"]
+count = len(backpack) ## ther length of the backpack is the highest integer as the last elemnt number = 2 
+
+## add homework
+## add school books
+## our current backpack is : ["i like turtles","toys"] 
+backpack.append("homework")
+##our current backpack is :  ["i like turtles","toys", "homework" ] 
+backpack.append("school books")
+##our current backpack is :  ["i like turtles","toys", "homework", "school books"] 
+
+
+
+
+
+
+
+
+print(backpack) ##["i like turtles", "toys", "homework", "school books"] 
+
+
+##lenght of backpack
+
+count = len(backpack) ## 4 
+## count = 4
+print("There are",count,"items in the backpack")
+## >>> there are  ,4 , items in the backpack  
+

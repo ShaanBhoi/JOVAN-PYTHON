@@ -1,0 +1,70 @@
+### define a function called main_calculator, takes no paramaters, and it returns true 
+### inside the function main_calculator i want you to use the print function and have a string in all caps that says welcome to jovans calculator
+
+def main_calculator():
+
+  print("WELCOME TO JOVANS CALCULATOR")
+
+  return True
+
+main_calculator()
+### we learnt how to define functions
+### we learnt how to call functions
+## how to return something within a function
+## we learnt how to look at a problem nd break it down ito smaller pieces that are easier to tackle at one time 
+'''****************************
+** 	HOW TO CREATE A VARIABLE 
+**	variable_name = value 
+**
+**	HOW TO CALL A FUNCTION 
+** 	function_name(param1,param2,...,param#)
+**
+**	BACKWARD SLASH FUN \
+**	\t makes a new tab 
+**	\n makes a new line 
+**************************'''
+
+############################ last class functions below	
+def division(num1,num2):
+	res1 = num1 / num2 
+	res2 = num2 / num1
+
+	print(num1,"/",num2," = ",res1)
+	print(num2,"/",num1," = ",res2)
+	
+	return True
+
+def modulo(num1,num2):
+	res1 = num1 % num2 
+	res2 = num2 % num1
+
+	print(num1,"%",num2," = ",res1)
+	print(num2,"%",num1," = ",res2)
+	
+	return True	
+
+def addition(num1, num2):
+	sum = num1 + num2
+	print(num1,"+",num2," = ",sum)
+	return sum
+
+def subtraction(num1, num2):
+	res1 = num1 - num2 
+	res2 = num2 - num1
+
+	print(num1,"-",num2," = ",res1)
+	print(num2,"-",num1," = ",res2)
+
+	return True
+
+def multiplicationGenerator(num1,num2):
+	product = num1*num2
+	print(num1,"x",num2," = ",product)
+
+def singleTable():
+	num1 = int(input("what is your first number? : "))
+	num2 = int(input("what is your second number? : "))
+	count = 0
+	while count<=num2:
+		multiplicationGenerator(num1,count)
+		count+=1

@@ -1,0 +1,36 @@
+'''
+print("Hello. Let's find out how many days have passed since the year you were born")
+
+yearBorn = int(input("What year were you born in?: "))
+currentYear = 2020
+
+yearsPassed = currentYear - yearBorn
+print ("It has been",yearsPassed, "since you were born")
+
+daysPassed = 365 * yearsPassed
+print("It has been " , daysPassed , "days from your first brithday until your birthday in 2020")
+'''
+
+## define a function yearsPassed that calculates the years passed since birth using a user input withn the function
+def yearsPassed():
+  currentYear = 2020
+  yearBorn = int(input("What year were you born in?: "))
+  yearsPassed = currentYear - yearBorn
+  print("It has been " , yearsPassed , " years since you were born")
+
+  return yearsPassed
+
+##call to run the above function
+##yearsPassed()
+
+## define a function daysPassed that uses the function yearsPassed to help calculate the number of days since birth
+
+def daysPassed(numYearsPassed) :
+  daysInYear = 365
+  daysPassed = daysInYear * numYearsPassed
+  print("it has been " , daysPassed , "since you were born until your birthday in 2020")
+
+
+
+numOfYearsPassed = yearsPassed()
+daysPassed(numOfYearsPassed)

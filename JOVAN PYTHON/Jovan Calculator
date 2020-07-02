@@ -1,0 +1,35 @@
+#function define function with the name addition() and it should take two paramaters num1 and num2
+def addition(num1, num2):
+  result = num1 + num2
+  print("The addition is: " , result)
+
+#function define function with the name subtraction() and it should take two paramaters num1 and num2
+def subtraction(num1, num2):
+  result = num1 - num2
+  print("The subtraction is: " , result)
+
+#function define function with the name division() and it should take two paramaters num1 and num2
+def division(num1, num2):
+  result = num1 / num2
+  print("The division is: " , result)
+
+#function define function with the name multiplication() and it should take two paramaters num1 and num2
+def multiplication(num1, num2):
+  result = num1 * num2
+  print("The multiplicaiton is: " , result)
+
+def jovansCalculator():
+  print("WELCOME TO JOVANS CALCULATOR")
+  num1 = int(input("What is the first number? :"))
+  num2 = int(input("What is the second number? :"))
+
+  addition(num1,num2)
+  subtraction(num1,num2)
+  division(num1,num2)
+  multiplication(num1,num2)
+
+
+jovansCalculator()
+
+### we learnt how to make a calculator usiing functions and paramater
+### we used the input keyword and force inputs to be integers

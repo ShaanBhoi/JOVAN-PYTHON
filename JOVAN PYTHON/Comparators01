@@ -1,0 +1,9 @@
+##Equal or not lecture
+
+classFinished = True
+
+if classFinished == True: ## is (False == True ) -> condition is False
+    print("Class is finally finished")
+
+elif classFinished != True:   ##is (False != True ) -> condition is True
+    print("Class is finished for now")

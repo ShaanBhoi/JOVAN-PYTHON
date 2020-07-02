@@ -1,0 +1,17 @@
+## paramaters
+
+def jovans_addition(a,b):
+
+    result = a+b
+    
+    #print(result) 
+    return result
+
+def jovans_subtraction(a,b,c):
+
+    result = jovans_addition(a,b) - c
+
+    #print(result)
+    return result
+jovans_subtraction(7,6,3)
+print(jovans_subtraction(7,6,3))

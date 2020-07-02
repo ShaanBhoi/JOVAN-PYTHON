@@ -1,0 +1,30 @@
+### define a function with the function name to be activitiesILike(action)
+### make a variable with the name result, and store the string "i like to " +action
+def activitiesILike(action):
+  result = 'i like to '+ action
+  print(result)
+
+### create variable for the pararmater
+### and store the string play legos in the variable name LEGO
+LEGO='play legos'
+
+## function call , write the name of the function
+## put our variable LEGO in the brackets
+
+activitiesILike(LEGO)
+
+
+### create a new variaible
+Games = "play games"
+## function call , write the name of the function
+## put our variable VGames in the brackets
+activitiesILike(Games) 
+
+
+### defining a new variaible BIKE
+### stores the string "ride my bike with shaan virgi" 
+
+
+BIKE = 'ride my bike with shaan virigi'
+
+activitiesILike(BIKE)

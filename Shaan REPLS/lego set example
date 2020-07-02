@@ -1,0 +1,9 @@
+myLegoSets = ["name1","name2","name3","newLegoSet"]
+
+newSetNAme = "newLegoSet"
+
+
+if newSetNAme in myLegoSets:
+	print("I already have " , newSetNAme)
+else:
+	print(newSetNAme , "i do not have this")

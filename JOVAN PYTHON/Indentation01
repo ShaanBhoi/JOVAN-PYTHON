@@ -1,0 +1,17 @@
+
+
+
+
+
+jovanFinishClass = True
+
+print("this is always gonna show up")#1
+
+if jovanFinishClass == True:
+    print("i am a conditional output")#2
+
+
+print("i will always be here")#3
+    
+
+    

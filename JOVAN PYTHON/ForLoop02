@@ -1,0 +1,151 @@
+## for loop learnnign with nested if statements and break
+
+
+
+computerFunctions=["command v","command c","escape","f3"]
+
+for everyElement in computerFunctions:
+    print(everyElement)
+
+## listName.append(newValue)
+
+    
+print("add enter to list")
+computerFunctions.append("Enter")
+print(computerFunctions)
+print("print each element again with enter as least element")
+for everyElement in computerFunctions:
+    print(everyElement)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+##listName = [value,value,value]
+favNums = [7,9,29,31,45,67]
+
+
+
+## for loopVariable in listName"
+##    /---do this---/
+for number in favNums:
+    if number >= 31:
+        print(number)
+    else:
+        break
+
+
+print("we encounterd a number less than 31")
+"""
+
+
+
+
+
+"""
+
+superHeroes = ["Thanos", "Spiderman" , "Jovan" , "SuperGirl", "Batman"]
+
+for hero in superHeroes :
+    if hero == "Thanos":
+        break
+    else:
+        print(hero)
+
+
+print("we have encounterd thanos")
+
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""
+
+backpack = ["notebook","calculator","pencil case"]
+## variable delcaration is
+## variable_name = value
+itemnumber = 1
+# = 1
+#3
+#4 
+
+for item in backpack:
+    print(item, "is the", itemnumber, " item in the backpack")
+    itemnumber = itemnumber + 1
+
+print("End of forloop, item is now: " , itemnumber)
+
+
+
+
+
+
+"""
+
+
+
+""""
+## i want the index of calculator to be outputted
+## list_name.index(value we want the index for)
+
+print("Calculator can be found at index: ", backpack.index("calculator"))
+
+## i want to remove calculator
+## list_name.remove(value we want to remove)
+
+backpack.remove("calculator")
+print(backpack, "has no calculator")
+
+
+## i want to add marker to the list
+## list_name.remove(value we want to add at the end of the list)
+
+backpack.append("marker")
+print(backpack,"has a marker")
+
+##i want change notebook to be textbook
+## list_name[index] = new value we want to put in index
+
+backpack[0] = "textbook"
+print(backpack,"has textbook as the first element, also at index 0")
+"""

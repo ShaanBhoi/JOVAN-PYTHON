@@ -1,0 +1,54 @@
+## adding list
+
+## checking existence
+
+
+
+myFamily = ["Mommy","Daddy","Jovan"]
+myBrother = ["Rohan"]
+
+##
+myFamily[2] = myBrother[0] ## changed index 2 in my family,
+                           ## to be what is in index 0 of my brother
+print(myFamily)
+## >>> 
+
+
+
+
+
+
+'''
+evenNums = [2,4,6,8]
+oddNums = [1,3,5,7,9]
+
+allNums = evenNums + oddNums
+print(allNums) ## 2,4,6,8,1,3,5,7,9
+
+
+evenNums.append(0) ## 2,4,6,8,0
+allNums = evenNums+oddNums ##UPDATE 2,4,6,8,0,1,3,5,7,9
+print(0 in allNums) ##True
+print(allNums)##2,4,6,8,0,1,3,5,7,9
+print(evenNums)
+'''
+
+### update if we make a change
+'''
+
+>
+<
+==
+!=
+>=
+<=
+
+
+listName.append(value)
+listName.remove(value)
+len(listName)
+
+print(value in listName)
+
+
+'''

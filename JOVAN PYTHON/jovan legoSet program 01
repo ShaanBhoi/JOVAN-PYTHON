@@ -1,0 +1,20 @@
+## todays class we are going to learn about creating a data structure 
+## the prurpose of this structure is to see if we already have the name of the lego set
+## create a list of sets that we own,and we are going to have a funtion that will check weather that nweset (given as a param ) already exists in the list of legoSets that we already own
+
+### STEP 0 : create a list of setsOwned, and fill it with the string values of the sets we know we have already
+### STEP 1 : take user input, with the question as a param "do i have this lego set" 
+		### STEP 1.2	store above value into a variable named legoSet
+### STEP 2 :  we have to create an if/else statement that returns true or false
+		### STEP 2.2	condition is if (legoSet in setsOwned)
+			### if true print we own this set, and retrun True
+			### if !true print we dont have this set, and return False
+
+
+setsOwned = ["skullarina","zombiecave","tiaga","pillager outpost","panda nersary "]
+legoSet = input("Do i have : ")
+
+if (legoSet in setsOwned):
+	print("I have ",legoSet)
+else:
+	print("I don't have ",legoSet)

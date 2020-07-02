@@ -1,0 +1,31 @@
+print("hello world my name is jovan")
+
+### define a function with the name myNameIs(first,last)
+### this function has two paramaters, and they both are of type
+### this fuction will output the addidition of first and last, but these will be ### stored in a variable name wholeName within the function
+
+### keyword to define the function 
+def myNameIs(first,last):
+    result = first+ " " +last
+    print(result)
+
+
+
+
+##function call
+first = "Shaan"
+last = "Virgi"
+myNameIs(first,last)
+
+
+
+
+###Example of a function 
+def additionAB (a,b):
+    result = a+b
+
+    print(result)
+
+a = 2
+b = 5    
+additionAB(a,b)

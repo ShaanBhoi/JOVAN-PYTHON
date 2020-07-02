@@ -1,0 +1,47 @@
+### problem is to write a function with the name twoPowerOne()
+### within the function i want to see you take two inputs from the user, num1 and num2, force them to be integers
+### create a varibale named result and store into it the value of num2 ** num1
+###	print a nice mssage with the result
+### return the most important piece of information
+## (OUTSIDE )call and test the function 
+
+## 3*3 = (3*3)*1
+## 3**3 = (3*3)*3
+## num2 ** num1
+
+def twoPowerOne():
+	num1 = int(input("What is your first input : "))
+	num2 = int(input("What is your second input : "))
+
+	result =  num2**num1
+
+	print("Your result is : ",result)
+	return result	
+
+twoPowerOne()
+twoPowerOne()
+twoPowerOne()
+twoPowerOne()
+## hey i have this sentence "What is your first input" i want you to chang into a integer
+#>> the computer syas:  i cant change a sentence without numbers into an integer
+
+
+
+'''****************************
+** 	HOW TO CREATE A VARIABLE **
+**	variableName = value 	 **
+**							 **	
+**	INPUT FUNCTION			 **
+**	input(param)			 **
+**							 **	
+**	HOW TO FORCE DATA TYPES	 **
+**	dataType(param)			 **
+
+**	HOW TO FORCE D.T's INPUTS *
+** dataType(input("Question"))
+****************************'''
+
+
+### we learnt about creating functions
+## we learnt about exponents
+## we learnt how to take inputs from the user and force change their datattypes

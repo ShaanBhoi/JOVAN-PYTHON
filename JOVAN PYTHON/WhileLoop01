@@ -1,0 +1,36 @@
+###While loop learning
+
+## increment is to add 1
+## decrement is to subtract 1
+"""
+
+varSum = 0 ## 1 ##  1+2 = 3 ## ... ##
+intNum = 1 ## 2 ##  2+1 = 3 ## ... ##
+
+while intNum <= 10 :
+    varSum += intNum 
+    intNum += 1
+
+print(varSum)
+
+
+## the above code sums all integers from 1 to 10 and outputs the total sum
+
+
+
+
+"""
+
+"""
+
+age = 9
+
+while age > 0:
+    print("i have lived to be ",age,"years old")
+    age = age -1
+
+
+
+    
+print("our variable age is now: ", age)
+"""

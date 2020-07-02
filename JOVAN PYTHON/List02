@@ -1,0 +1,26 @@
+isClassFinished = True
+
+activities = ["Hockey","Trampoline","Soccer","Bikeride"]
+
+
+"""
+if class is finished, then i wan to see what activites we can do
+
+"""
+
+
+if isClassFinished == True : ##( True == true ) -> True
+    print("We can do something from the following : ", activities )
+else:
+    print("class is not finished")
+
+########### below here are always outputted ########## 
+
+print("Shaan virgi likes to play",activities[2] )
+
+activities[2] = "Eating apple slices"
+
+print("Shaan virgi likes to ",activities[2] )
+
+
+print(activities)

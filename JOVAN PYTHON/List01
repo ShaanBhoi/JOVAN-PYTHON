@@ -1,0 +1,31 @@
+## lists
+
+
+
+
+
+
+myFamily = ["jovan","rohan","mommy","daddy","shaan virgi"] #5 family
+myFriends = ["michael","carter","gabriel","oliver"]        #4 friends
+everyone = myFriends + myFamily 
+
+if myFamily != myFriends :
+    print("my family are more than my friends")
+    print("My family members are: " , myFamily)
+    print("Shaan virgi" + " is my cousin")
+
+    print("Everyone i know : ", everyone)
+else:
+    print("My family are less than my friends")
+
+
+
+'''
+###comparison operators
+    ==  exactly equal
+    >   greater than
+    <   less than
+    !=  not equal (lying)
+    >=  greaterh than OR equal to
+    <=  less than or equal to
+'''

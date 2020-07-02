@@ -1,0 +1,40 @@
+######################################################################### 
+#    We need to come up with a solution to count vowels in a string     #
+#########################################################################
+
+##################    1. create a list of vowels
+##    srategy   ##    2. loop through each element in the list  
+##################    3. add one to the total count of vowels
+
+
+## define a function with the name vowelCounter(inputSentence)
+def vowelCounter(inputSentence) :
+  ## create a list with the variable name englishVowels, and store in it the elements of each seperate vowel as a string.
+  LowEnglishVowels = ["a","e","i","o","u"]
+  CapEnglishVowels = ["A","E","I","O","U"]
+  
+  allVowels = LowEnglishVowels + CapEnglishVowels
+
+  ##  we are going to make a for loop, and go through each char in the sentence and compare it to each vowel in allVowels, if we find a vowel, we will increment vowel count
+  vowelCount = 0 
+
+
+  for j in range(0,len(inputSentence)):
+    for k in range(0,len(allVowels)):
+        #print("is ",inputSentence[j] ," equal to ", allVowels[k])
+        if inputSentence[j] == allVowels[k]:
+            vowelCount = vowelCount + 1
+            #print(vowelCount)
+
+  print("we found a total of",vowelCount,"vowels in the sentence", inputSentence)
+  return vowelCount
+### declare a variable with the name mySentence and store into it a string of anything you like
+mySentence = "hello my name is anoop dhanjal "
+
+## call the function vowelCounter() and give it the paramater mySentence
+
+vowelCounter(mySentence)
+
+### we learnt a little bit more on functions, how to cll and creat functions
+## we learnt how to use for loops and if statements in functions
+## we learn what to return and how we can reuse functions to come upt with a solution to many problems

@@ -1,0 +1,45 @@
+### STEP 1 : Define a function with the name  multiplicationGenerator(), it takes two paramaters, num1 & num2
+
+### STEP 2: inside of the function create a variable with the name product, and store the value of num1 multiplied by num2 into product
+	### STEP 2.1 : print produt and see if you get the right output
+	### STEP 2.2 : call the function and pass it 3 and 4 as paramaters (commented out)
+	
+### STEP 3: print a sentence that make sense to display the output. make sure you have the variables num1,num2, and product somewhere in the sentence 
+def multiplicationGenerator(num1,num2):
+	product = num1*num2
+	print(num1,"x",num2," = ",product)
+
+
+###multiplicationGenerator(3,4)
+
+### STEP 4: Define a function thats called singleTable(),it takes no paramaters
+### STEP 5: create a variable inside the function singleTable with the name num1, and store into it the input of a user asking for the first number, and force it to be an integer
+	### STEP 5.1: repat but with num2 as second number
+### STEP 6 : create a variable count, and store the value 0 inside it
+### step 7: create a while loop, with the condition ; while count is less than or equal to (count<=) num2 , we want to call the function multiplication generator with num1 and count as paramaters
+	### STEP 7.1 : increment count inside the while loop
+###STEP 8: call the function singleTable()
+
+
+def singleTable():
+	num1 = int(input("what is your first number? : "))
+	num2 = int(input("what is your second number? : "))
+	count = 0
+	while count<=num2:
+		multiplicationGenerator(num1,count)
+		count+=1
+
+
+singleTable()
+		
+'''****************************
+** 	HOW TO CREATE A VARIABLE **
+**	variable_name = value 	 **
+****************************'''
+
+
+# today we learnt how to create functions
+# create variables
+# call functions
+# take user input and force it to be int instead of String 
+# 

@@ -1,0 +1,47 @@
+'''
+## create a list setsOwned to store the elements we know we have
+setsOwned = ["skullarina","zombiecave","tiaga","pillager outpost","panda nersary "]
+
+## create an input from the user and stor into legoSet
+legoSet = input("Do i have : ")
+
+## chek if legoSet is in setsOwned, if True print message saying we have it, else print message saying we dont
+if (legoSet in setsOwned):
+	print("I have ",legoSet)
+else:#
+	print("I don't have ",legoSet)
+'''
+
+'''
+INSTRUCTIONS:
+1. define a function with the name legoSetChecker (ownedSetList,checkSet)
+2. re-create the if/else statment with the updated variable names from the paramaters passed to the function
+'''
+def listChecker(myList,myCheckElement):
+## make an if or else statement that will  return boolean True if checkSet exists as an element in ownedSetList, false otherwise
+## condition : (checkSet in ownedSetList)
+	if myCheckElement in myList:
+		print(myCheckElement," is in the list")
+		return True
+	else:
+		print(myCheckElement," is not in the list")
+		return (False)
+    
+
+'''
+setsOwned = ["skullarina","zombiecave","tiaga","pillager outpost","panda nersary"]
+legoSet = input("Do i have : ")
+print("Check for lego set")
+listChecker(setsOwned,legoSet)
+
+myFamily = ["mom","dad","rohan"]
+myFamilyMember = input("Is this person in my family: ")
+print("family member checker")
+listChecker(myFamily,myFamilyMember) 
+'''
+## we took a program that was not a functction and made it into a function
+## we changed out functtion to be able to handle more than just lego sets, now it can check if any element that is a string is in the list passed as a pararamater 
+
+
+
+

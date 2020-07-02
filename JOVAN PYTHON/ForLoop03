@@ -1,0 +1,40 @@
+## review basic for loop
+## review breaking bad
+## learn continue for loop
+## learn break in loops
+## baanana bread fr 10 people
+
+makeBreadFor = ["Herself","Maserji","Stranger","Mamaji"]
+
+
+## continue at stranger
+for person in makeBreadFor:
+    if person != "Stranger":
+        print("Mommy made bread for : " + person)
+    else:
+        print("i love my mommy & she is the best")
+        continue
+        
+        
+
+
+
+
+
+"""
+## break at stranger
+for person in makeBreadFor:
+    if person != "Stranger":
+        print("Mommy made bread for : " + person)
+    else:
+        break
+"""
+
+
+
+"""
+## everyone
+for person in makeBreadFor:
+        print("Mommy made bread for :" + person)
+"""        
+

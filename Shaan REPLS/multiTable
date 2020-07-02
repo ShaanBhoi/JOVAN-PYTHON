@@ -1,0 +1,47 @@
+def multiplicationGenerator(multiplier,multiplicand) :
+	product = multiplier * multiplicand
+
+	print(multiplier,"x",multiplicand," = ",product)
+
+
+def singleTableGenerator():((((()))))
+	multiplicand = int(input("What is your multiplicand? : "))
+	multiplier = int(input("Up to what multiplier? : "))
+
+	isPositive = multiplicand >= 0 
+
+	if isPositive:
+		count = 0 
+		while count <= multiplicand:
+			multiplicationGenerator(multiplier,count)
+			count+=1
+
+def allTableGenerator():
+	multiplicand = int(input("What is your multiplicand? : "))
+	multiplier = int(input("Up to what multiplier? : "))
+
+	pos1 = multiplier >= 0
+	pos2 = multiplicand >= 0
+	isPositive = pos1 and pos2 
+
+	if isPositive: 
+		for i in range(0,multiplicand+1):
+			print("\n--- TABLE",i," ---")
+			for j in range(0,multiplier+1):
+				multiplicationGenerator(i,j)
+
+
+				
+
+def table_Type():
+	userInput = int(input("Press 1 to Generate all Tables \nPress 0 to generate single table\nWhat'll it be?: "))
+
+	if userInput == 1:
+		allTableGenerator()
+	elif userInput == 0:
+		singleTableGenerator()
+	else:
+		print("invalid entry, try again please.")
+		table_Type()
+	
+table_Type()

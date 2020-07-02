@@ -1,0 +1,48 @@
+### write a function that takes two inputs from the user and multiplies and displays them back and returns the multiplied result
+## the first input is an int
+## the second input is a float
+## name of function is going to be intXfloat()
+
+## declare a variable with the variablle name intInput, and store into it the value of the input function with the paramater of the string with the question 'What is your first number? : '
+
+## declare a variable with the variablle name floatInput, and store into it the value of the input function with the paramater of the string with the question 'What is your second number? : '
+
+## create a variable with then variable name result, and store into it the value of the ultiplication of intInput and Float input
+
+## usint eh print function print out the result in a nice String to the user of the function
+
+## return result
+
+## call and test the function (MAKE SURE YOU ARE OUTSIDTHE FUNCTION)
+def intXfloat():
+
+  intInput = int(input("What is your first number (INTEGER) : "))
+  floatInput = float(input("What is your second number (FLOAT) : "))
+
+  result = intInput * floatInput
+
+
+  print("The result is : ",result)
+
+  return result
+
+intXfloat()
+
+
+## using the print function, print out the result (variable) in a nice String(passed as a paramater to the print function) to the user of the function
+
+'''****************************
+** 	HOW TO CREATE A VARIABLE **
+**	variableName = value 	 **
+**							 **	
+**	INPUT FUNCTION			 **
+**	input(param)			 **
+**							 **	
+**	HOW TO FORCE DATA TYPES	 **
+**	dataType(param)			 **
+****************************'''
+
+## in todays class we learnt more about problem solving skills
+## we learnt how to create a function and how to name them 
+## we learnt again how to take user input and force the data type to change from string to float or int
+## we learnt how to test and run code and catch bugs and how to fix them 

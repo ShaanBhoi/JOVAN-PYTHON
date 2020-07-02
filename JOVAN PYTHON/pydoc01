@@ -1,0 +1,41 @@
+def listChecker(myList,myCheckElement):
+	'''
+	Functionality:
+	----------------
+	(list,elem) -> bool
+
+
+	Paramaters:
+	-----------------
+	1.myList is a list (or a variable that stores a list)
+	2.myCheckElement is an element of the list (or a variable that stores an element)
+
+
+	Description:
+	----------------
+	This fucnction takes a list and an elemnt to check weather it exists in the list. If true, retrun true and prints info.
+	if false, return false and prints info
+
+	Example:
+	----------------
+	> myNums = [1,2,'Jovandhanjal',4,5]
+	> myElement = 'jovandhanjal '
+	> 
+	> listChecker(myNums,myElement)
+	jovandhanjal   is not in the list
+	False
+
+	> listChecker([1,2,3,4],7)
+	7  is not in the list
+	False
+
+	'''
+	if myCheckElement in myList:
+		print(myCheckElement," is in the list")
+		return True
+	else:
+		print(myCheckElement," is not in the list")
+		return False
+
+
+##############

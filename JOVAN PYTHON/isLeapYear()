@@ -1,0 +1,21 @@
+### define a function with the name isLeapYear() on line 2
+def isLeapYear():
+
+  ### create a variable year, that stores the integer of the user input with the question : "What year do you want to check if it is a leap year?"
+  year = int(input("what year do you want to check if it is a leap year? : "))
+  ### we want to force year to be an integer using the int() function, to do this we need to use the int function and pass it the paramater year
+
+  ### using conditional descision making, we can create some logic using the if statment, and see if (year%4) > 0 , if that is true we need to say that it is not a leap year, otherwise if this condition is false, we can say that it is a leap year   
+
+  
+  if (year%4) >0 :
+    print(year," is not a leap year")
+  else:
+      print(year, "is a leap year")
+
+isLeapYear()
+
+### today we learnt how create a function and use an if statment inside of ite
+## we also learnt how to force the stroage of an int from a user strin ginout
+# we learnt how to call a function 
+# how to debug our code when we encounter errors in the terminal at runtime 

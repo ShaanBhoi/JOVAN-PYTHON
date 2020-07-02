@@ -1,0 +1,53 @@
+## functions 01
+## how to create functions
+def ride_bike():
+    print("Get permission from Mommy or Daddy")
+    print("Go outside")
+    print("Get the bike out")
+    print("Put your helmet on")
+    print("LETS RIDE !!!")
+
+
+def printing_1to10():
+    numbers = [1,2,3,4,5,6,7,8,9,10]
+    for elem in numbers:
+        print(elem)
+        
+def plant_into_pot():
+    print("1. Find a pot")
+    print("2. Get some sticks")
+    print("3. Create foundation for pot to drain")
+    print("4. Put in pieces of clay pot or rocks ")
+    print("5. Put in sticks")
+    print("6. put in some soil")
+    print("7. put the plant in ")
+    print("8. put the wet soil and water it")
+    
+    
+def python_class():
+    print("Review last lecture")
+    print("Learn new stuff from phone")
+    print("See some real examples")
+    print("End class")
+
+
+
+### how to execute or call functions in for loops
+def python_class_is_finished():
+    print("Class is finsihed")
+
+def python_class_is_not_finished():
+    print("python class is not finsihed")
+    print("Keep going,and maybe you can go on a bikeride later")
+    print("listen to shaan virgi")
+
+
+is_class_finished = input("Is class finished? :")
+##is_clas_finished = False
+
+if is_class_finished == True: 
+    python_class_is_finished()
+elif is_class_finished == False:
+    python_class_is_not_finished()
+else:
+    print("You didn't enter a boolean value, try again")

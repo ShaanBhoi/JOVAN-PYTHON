@@ -1,0 +1,42 @@
+## for loop learnnign
+
+
+myFamily = ["mom","dad","rohan"]
+
+for member in myFamily:
+    print(member +" loves me")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+myToys = ["Lego","NERF","MineCraft","Bayblades","Bakugan","Cars"]
+
+for element in myToys: ##6 elements
+    ##print(myToys[myToys.index(element)])
+    print(element)
+
+    """
+the first element is lego and it has index 0
+    myToys[myToys.index(element)]
+    myToys[myToys.index("LEGO")]
+    myToys[0]
+    >>> "LEGO"
+    """
+'''
+
+
+
+

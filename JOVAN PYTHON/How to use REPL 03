@@ -1,0 +1,61 @@
+### todays class will go over the basics of how to program, and this IDE
+### IDE means Integreated Developement Environment 
+### IDE combines termninal and text editor
+
+
+
+### text editor is white (on left side)
+### terminal is dark blue (on right side)
+
+
+"""
+### how to use the print function to show an output on the terminal
+print("Jovan is the best")
+
+
+### declare a variable with the variable name to be myInteger, and store the value of 32 into it
+
+myInteger = 32
+
+### declare a variable with the variable name to be myFirstName, and store the string of your first name into it (line 23)
+### declare a variable with the variable name to be myLastName, and store the string of your last name into it (line 25)
+
+myFirstName = "shaan"
+
+myLastName = "virgi"
+
+### using the variable names myFirstName & myLastName, Create a new variable, with the variable name myFullName, and store into it the value of the addition of myFirstName and myLastName (line 30)
+
+
+
+#### create an output using the print function, and pass it the paramater myFullName(on line 34)
+
+print(myFullName)
+"""
+
+
+### i want you do create two variables, with the variable names myFirst(line 40) & myLast(line 42) and store in them your frist name and last name as strings
+
+myFirst = "Shaan"
+
+myLast = "virgi"
+
+### create a variable, with the variable name myFull, and store into it the addition of myFirst & myLast (line 46)
+
+myFull = myFirst +  " " + myLast
+
+#### declare a varible, with the variable name myAge , and stor into it a float of your age (line 49)
+
+myAge = 22
+
+### using the print function, i want you to create a sentence and using commas, show the information about yourself from the variables you have created (myFull and myAge)
+### EX:       My name is Jovan Dhanjal and I am 9.6 years old
+
+
+
+print("my name is Jovan Dhanjal and I am 9.6 years")
+
+print("My name is" ,myFull,"and i am",myAge,"years old")
+
+#### summary
+### we learnt the importance of creating and using variables for outputs, becasue it is easier to change, and keep track of

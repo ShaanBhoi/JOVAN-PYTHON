@@ -1,0 +1,21 @@
+###
+'''
+i will only take the job if (it has atleast 40 days off) AND (the salary is more than 46000)
+
+
+if (it has atleast 40 days off) AND (the salary is more than 46000):
+    i will take the job
+    
+'''
+daysOff = 39
+salary = 46000
+name ="Tom"
+
+if ( (daysOff <= 40 ) and (salary >= 46000) and (name == "Tom") ):
+    # ( True AND True AND True) -> True
+    print("i will take the job")
+
+else:
+    print("i will need more money or more days off")
+
+

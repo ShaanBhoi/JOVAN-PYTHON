@@ -1,0 +1,21 @@
+def median():
+	size = int(input("How many elements in ur list? : "))
+	userArray = []
+	count = 0 
+	while count < size :
+		element = int(input("Twhat is your element value?: "))
+		userArray.append(element)
+		count+=1
+	userArray.sort()
+	isEven = (len(userArray) % 2 )== 0
+	arrayLen = len(userArray)
+	print("The sorted list is: " , userArray)
+	if isEven == False :
+		median = int(arrayLen // 2 )
+		print(str(userArray[median]) + " is the median, it is at index " +str(median))
+	else:
+		median = int(arrayLen / 2 )
+		print(str(userArray[median]) + " is the median, it is at index " +str(median))
+		print(str(userArray[median+1]) + " is the median, it is at index " +str(median+1))
+		print("Therefore the true median is the average of the two: "+str((userArray[median]+userArray[median+1])/2))
+median()

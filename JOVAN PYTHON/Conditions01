@@ -1,0 +1,13 @@
+"""
+
+if pythonClass is finsihed, then i can ride my bike
+
+otheriwise, do what daddy says
+
+"""
+pythonClass ="finished"
+if pythonClass == "finished" :
+    print("i can ride my bike")
+else:
+    
+    print("do what daddy says")

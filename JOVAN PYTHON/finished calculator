@@ -1,0 +1,89 @@
+'''****************************
+** 	HOW TO CREATE A VARIABLE 
+**	variable_name = value 
+**
+**	HOW TO CALL A FUNCTION 
+** 	function_name(param1,param2,...,param#)
+**
+**	BACKWARD SLASH FUN \
+**	\t makes a new tab 
+**	\n makes a new line 
+**************************'''
+
+############################ last class functions below	
+def division(num1,num2):
+	res1 = num1 / num2 
+	res2 = num2 / num1
+
+	print(num1,"/",num2," = ",res1)
+	print(num2,"/",num1," = ",res2)
+	
+	return True
+
+def modulo(num1,num2):
+	res1 = num1 % num2 
+	res2 = num2 % num1
+
+	print(num1,"%",num2," = ",res1)
+	print(num2,"%",num1," = ",res2)
+	
+	return True	
+
+def addition(num1, num2):
+	sum = num1 + num2
+	print(num1,"+",num2," = ",sum)
+	return sum
+
+def subtraction(num1, num2):
+	res1 = num1 - num2 
+	res2 = num2 - num1
+
+	print(num1,"-",num2," = ",res1)
+	print(num2,"-",num1," = ",res2)
+
+	return True
+
+def multiplicationGenerator(num1,num2):
+	product = num1*num2
+	print(num1,"x",num2," = ",product)
+
+def singleTable(num1,num2):
+	count = 0
+	while count<=num2:
+		multiplicationGenerator(num1,count)
+		count+=1
+
+def main_calculator():
+	print("WELCOME TO JOVANS CALCULATOR")
+	num1 = int(input("What is your first number? : "))
+	num2 = int(input("what is your second number? : "))	
+	user_input = int(input("Press 1 for divison\nPress 2 for addition\nPress 3 for subtraction\nPress 4 for the multiplication\nPress 5 for a single multiplicaiton table\nPress 6 for modulo\n\tEnter input here: "))
+### if the user input is exactly equal to 1, then we want to call the division function. 
+### make a call to the function with the name division(num1,num2), inside of the true if statement
+### have an ekse statenent 
+
+	if user_input == 1:                                                         
+		division(num1,num2)
+	elif user_input == 2:
+		addition(num1,num2)
+
+	elif user_input == 3:
+		subtraction(num1,num2)
+
+	elif user_input == 4:
+		multiplicationGenerator(num1,num2)
+
+
+	elif user_input == 5:
+		singleTable(num1,num2)	
+
+	elif user_input == 6:
+		modulo(num1,num2)		
+	else:
+		print("ERROR!!! please try again")
+		main_calculator()
+
+	return True
+
+
+main_calculator()

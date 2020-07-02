@@ -1,0 +1,59 @@
+### functions we created last class, we are going to add a feature to have addition and sutractiion
+### todays class we are goin to fill in the two new functions, addition and subtraction
+
+### STEP 1: in the function addition, create a variable with the name sum , and store inside of it the value of the addition of num1 & num2  
+### STEP 2: using the print functions, print out a sentence that makes sense using num1, num2 and the sum that is easy to understand
+### STEP 3: call the function addition and see if it works
+	###STEP 3.1: call the function using 1&2 , 10&7, before you should think of the answers
+	### BONUS store the first two function calls in their respective variable name first, second, and create a new variable called third that stores the addition of first and second as paramaters
+def addition(num1, num2):
+	sum = num1 + num2
+	print(num1,"+",num2," = ",sum)
+	return sum
+"""
+first = addition(1,2)
+second = addition(10,7)
+third = addition(first,second)
+"""
+### STEP 4: create a variable with the name res1, that stores the value of num1 minus num2 
+	### STEP 4.1 : create a variable with the name res2, that stores the value of num2 minus num1
+### STEP 5: Using the print function , create two outpts that make snese with the vaariables form the function
+### STEP 6: call and test the function with 3&5 , 10&5
+def subtraction(num1, num2):
+	res1 = num1 - num2 
+	res2 = num2 - num1
+
+	print(num1,"-",num2," = ",res1)
+	print(num2,"-",num1," = ",res2)
+
+	return True
+
+subtraction(3,5)
+subtraction(10,5)
+
+
+'''****************************
+** 	HOW TO CREATE A VARIABLE 
+**	variable_name = value 
+**
+**	HOW TO CALL A FUNCTION 
+** 	function_name(param1,param2,...,param#)
+****************************'''
+############################ last class functions below	 
+def multiplicationGenerator(num1,num2):
+	product = num1*num2
+	print(num1,"x",num2," = ",product)
+
+def singleTable():
+	num1 = int(input("what is your first number? : "))
+	num2 = int(input("what is your second number? : "))
+	count = 0
+	while count<=num2:
+		multiplicationGenerator(num1,count)
+		count+=1
+
+		
+'''****************************
+** 	HOW TO CREATE A VARIABLE **
+**	variable_name = value 	 **
+****************************'''
