@@ -1,0 +1,59 @@
+def myInformation(ageLimit):
+	
+
+	"""
+	Functionality:
+	----------------
+	(int) -> bool
+
+	Paramaters:
+	________________
+	1. ageLimit , an integer that will be used to determine weather somoene can come to the party
+
+	Description:
+	----------------
+	This fucnction takes 1 paramater, ageLimit.
+	This function takes three inputs from the user, and stores them into variables:
+		1. myName , it stores a string input from the user
+		2. myAge , it stores a float input from the user
+		3. myCity ,it stores a string input from the user
+		
+	If the user age is less than or equal to the ageLimit, return true with nice string inditicating they can come to the party
+	Otherwise, if age is greater than the ageLimit, return false, with nice message indicating they can not come to the party
+
+
+	Examples:
+	________________
+	
+	>maxAge = 15
+	> myInformation(maxAge )
+	What is your name? : Rohan
+	What is your age? : 7
+	What is your city? : MTL
+	Rohan from MTL can come to the party
+	True
+
+	> myInformation(12)
+	What is your name? : shaan
+	What is your age? : 13
+	What is your city? : MTL
+	shaan from MTL is not allowed to come to the party
+	False
+	"""
+	myName = input("What is your name? : ") 
+	myAge = float(input("What is your age? : "))
+	myCity = input("What is your city? : ")
+	
+
+	if myAge <= ageLimit:
+		print(myName, "from",myCity,"can come to the party")
+		return True
+	else:
+		print(myName, "from",myCity,"is not allowed to come to the party")
+		return False
+
+
+
+
+
+

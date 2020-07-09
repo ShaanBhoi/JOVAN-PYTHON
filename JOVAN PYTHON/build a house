@@ -1,0 +1,49 @@
+def build():
+
+	'''
+	Functionality
+	-------------
+	(none) -> list
+
+	Paramaters
+	-------------
+	0. This function has no paramaters
+
+	Description
+	-------------	
+	This fucntion takes 0 paramaters.
+	This function takes a user input as an integer, for the number of parts to build, it stores this value into numOfParts.
+	Using a list with the the name listOfParts, we take an input from the user, with the name of the part to build, and add this to the list for the number of parts required.
+
+	Example
+	----------
+	> build()
+	how many parts do we need to build? : 0
+	We need to build:  []
+	[]
+
+	> build()
+	how many parts do we need to build? : 2
+	What is the part you need? : Living room
+	What is the part you need? : Roof
+	We need to build:  ['Living room', 'Roof']
+	['Living room', 'Roof']
+	'''
+	numOfParts = int(input("how many parts do we need to build? : "))
+	listOfParts = [] 
+
+	while numOfParts > 0:
+		user_input = input("What is the part you need? : ")
+		numOfParts -= 1
+		listOfParts.append(user_input)
+
+	print("We need to build: ",listOfParts)
+
+	return listOfParts
+	
+
+
+
+
+
+	

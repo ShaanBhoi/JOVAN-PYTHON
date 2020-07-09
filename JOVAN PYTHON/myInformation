@@ -1,0 +1,41 @@
+### create a function called myInformation()
+## create and use these variables : myName,myAge,myCity
+## but ake all of the variables to be taken by input.
+### while designing the functiion we want to do the help documentation
+def myInformation():
+
+	"""
+	Functionality:
+	----------------
+	(none) -> bool
+
+	Description:
+	----------------
+	This fucnction takes no paramaters.
+	This function takes three inputs from the user, and stores them into variables:
+		1. myName , it stores a string input from the user
+		2. myAge , it stores a float input from the user
+		3. myCity ,it stores a string input from the user
+		
+	If the user age is less than or equal to 82, return true with nice string inditicating they can come to the party
+	Otherwise, if age is greater than 82, return false, with nice message indicating they can not come to the party
+
+	"""
+	myName = input("What is your name? : ") 
+	myAge = float(input("What is your age? : "))
+	myCity = input("What is your city? : ")
+	
+
+	if myAge <= 82:
+		print(myName, "from",myCity,"can come to the party")
+		return True
+	else:
+		print(myName, "from",myCity,"is not allowed to come to the party")
+		return False
+
+myInformation()
+
+
+
+
+
