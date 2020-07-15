@@ -1,0 +1,47 @@
+
+
+### make a function generateRandomNum() , it takes two.. user inputs for upper and lower bounds (sotored as variables), and outputs a random integer between upper bound and lower bounds
+
+import random 
+
+def generateRandomNum():
+
+	'''
+	functionality:
+	_______________
+
+	(none) -> int
+
+	paramaters:
+	______________
+	 0. This function has no parameters
+
+	description:
+	______________
+	This function takes two user inputs (as integers) for lower and upper bounds and calls on the function randint( ) from random, to compute a random number inside our upper and lower bounds. Prints information in nice format. Returns the random number generated.
+
+	example:
+	______________
+
+	Call from T.E.
+
+	what is the highest possible number? : 55
+	what is the lowest possible number? : 50
+	your random number between [ 50 , 55 ] is:  54
+	> 
+
+	'''
+
+	upper = int(input("what is the highest possible number? : "))
+	lower = int(input("what is the lowest possible number? : "))
+
+	randomNumberRes = random.randint(lower,upper)
+
+	print("your random number between [",lower,",",upper,"] is: ", randomNumberRes )
+	return randomNumberRes
+
+
+generateRandomNum()
+
+
+
